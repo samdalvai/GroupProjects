@@ -1,0 +1,3 @@
+function printConfirmation() {
+    window.print();
+}

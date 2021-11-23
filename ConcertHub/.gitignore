@@ -1,0 +1,9 @@
+.DS_Store
+.DS_Store?
+.Trashes
+Thumbs.db
+composer.phar
+vendor/
+/.vscode
+composer.json
+composer.lock

@@ -1,0 +1,56 @@
+{
+	"title": "Activity Json Schema",
+	"description": "Schema used to validate json output file representing Activity objects",
+	"examples": [
+		{
+			"id": "078883A95FF002AA246B5B99DA5BB9D7",
+			"name": "11 Summit Tour",
+			"description": "A lonely hike from summit to summit in between...",
+			"types": ["berg", "bergtouren", "weitere berge", "hochtouren"],
+			"hasGPSTrack": true,
+			"region": "Brunico/Bruneck and environs"
+		}
+	],
+	"type": "object",
+	"properties": {
+		"id": {
+			"type": "string",
+			"minLength": 1
+		},
+		"name": {
+			"type": "string"
+		},
+		"description": {
+			"type": [
+				"string",
+				"null"
+			]
+		},
+		"types": {
+			"type": "array",
+			"minItems": 1,
+			"uniqueItems": true,
+			"items": {
+				"type": "string"
+			}
+		},
+		"hasGPSTrack": {
+			"type": "boolean"
+		},
+		"region": {
+			"type": [
+				"string",
+				"null"
+			]
+		}
+	},
+	"required": [
+		"id",
+		"name",
+		"description",
+		"types",
+		"hasGPSTrack",
+		"region"
+	],
+	"additionalProperties": false
+}

@@ -1,0 +1,170 @@
+/***PROPERTIES FOR ALL THE PAGES**/
+
+* {
+    box-sizing: border-box;
+}
+
+/* apply top badding for all pages to account for navbar */
+body {
+  padding-top:71px;
+}
+
+
+/*********** NAVBAR SECTION **********/
+
+.white,
+.hover-white:hover {
+    color: #000!important;
+    background-color: #fff!important
+}
+
+.logo-section {
+    padding-right: 0px;
+}
+
+.main-logo {
+    font-size: 30px!important;
+}
+
+.button {
+    border: none;
+    display: inline-block;
+    padding: 8px 8px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap
+}
+
+.button {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.button:hover {
+    color: #000!important;
+    background-color: #ccc!important;
+    border-radius: 5px;
+}
+
+.buttons-section {
+    padding-top: 10px;
+    padding-left:50px;
+}
+
+.center {
+    text-align: center!important
+}
+
+.center-bar {
+    margin: auto;
+    display: flex;
+    vertical-align: middle;
+}
+
+.navbar-set-selected {
+    opacity: 0.75!important;
+    color: white!important;
+    background-color: black;
+    border-radius: 6px;
+
+}
+
+/**********************************/
+
+/* TEXT AND COLOR */
+
+.text-large {
+    font-size: 30px!important;
+}
+
+.text-medium {
+    font-size: 18px!important;
+}
+.text_left {
+    text-align: left;
+}
+
+.black {
+    background-color: black;
+}
+
+.wide {
+    letter-spacing: 4px
+}
+
+.text-white {
+    color: #fff!important
+}
+
+.text-black {
+    color: black!important
+}
+
+/***********/
+
+/* PADDING */
+
+.padding-15-left {
+    padding-left: 15px;
+}
+
+.padding {
+    padding: 8px 16px!important
+}
+
+.padding-top {
+    padding-top: 15px;
+}
+
+/***********/
+
+/******* FOOTER SECTION *******/
+
+.footer-padding {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+/**********************************/
+
+/********* LOGO STYLING ***********/
+
+.logo-style-left {
+    padding: 10px 10px 10px;
+    opacity: 0.85;
+    color: white;
+    background-color: black;
+    border-radius: 6px;
+}
+
+.logo-style-right {
+    padding: 10px 10px 10px;
+    opacity: 0.85;
+    color: black;
+    background-color: white;
+    border-radius: 6px;
+}
+
+/******************************/
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout */
+@media screen and (max-width: 900px) {
+    .line-height-220 {
+        line-height: 220%;
+    }
+}

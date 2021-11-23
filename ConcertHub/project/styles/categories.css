@@ -1,0 +1,326 @@
+.padding-lg {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: block;
+}
+
+.border-bottom {
+  border-bottom: 2px solid #ccc !important;
+}
+
+.border-light-grey,
+.hover-border-light-grey:hover,
+.border-light-gray,
+.hover-border-light-gray:hover {
+  border-color: #f1f1f1 !important;
+}
+
+.padding-bottom {
+  padding-bottom: 30px;
+}
+
+.padding-top {
+  padding-top: 100px;
+}
+
+.title {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Create four equal columns that sits next to each other */
+.column-four {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  padding: 15px 15px 15px 15px;
+  font-size: 10px;
+  font-weight: 400;
+  position: relative;
+  text-align: center;
+}
+
+.column-four img {
+  margin-top: 0px;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px grey;
+  object-fit: cover;
+}
+
+.column-four .category-text {
+  font-size: 0.80rem;
+}
+
+.column-four:hover a img {
+  transform: scale(1.05);
+  opacity: 0.3;
+}
+
+.column-four:hover .category-text {
+  transform: scale(1.05);
+  opacity: 1;
+  background-color: white;
+  color: black;
+}
+
+.column-four:hover .tooltip-text {
+  opacity: 1;
+}
+
+/* Create three equal columns that sits next to each other */
+.column-three {
+  -ms-flex: 33%; /* IE10 */
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 4px;
+  padding: 15px 15px 15px 15px;
+  font-size: 15px;
+  font-weight: 400;
+  position: relative;
+  text-align: center;
+}
+
+.column-three img {
+  margin-top: 0px;
+  vertical-align: middle;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.column-three:hover a img {
+  transform: scale(1.05);
+  opacity: 0.3;
+}
+
+.column-three:hover .category-text {
+  transform: scale(1.05);
+  opacity: 1;
+  background-color: white;
+  color: black;
+}
+
+.column-three:hover .tooltip-text {
+  opacity: 1;
+}
+
+/* Create two equal columns that sits next to each other */
+.column-two {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 4px;
+  padding: 15px 15px 15px 15px;
+  font-size: 30px;
+  font-weight: 400;
+  position: relative;
+  text-align: center;
+}
+
+.column-two img {
+  margin-top: 0px;
+  vertical-align: middle;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.column-two:hover a img {
+  transform: scale(1.05);
+  opacity: 0.3;
+}
+
+.column-two:hover .category-text {
+  transform: scale(1.05);
+  opacity: 0.3;
+  background-color: white;
+  color: black;
+}
+
+.column-two:hover .tooltip-text {
+  opacity: 1;
+}
+
+/* Create single column*/
+.column-one {
+  -ms-flex: 100%; /* IE10 */
+  flex: 100%;
+  max-width: 100%;
+  padding: 0 4px;
+  padding: 15px 15px 15px 15px;
+  font-size: 50px;
+  font-weight: 400;
+  position: relative;
+  text-align: center;
+}
+
+.column-one img {
+  margin-top: 0px;
+  vertical-align: middle;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.column-one:hover a img {
+  transform: scale(1.05);
+  opacity: 0.3;
+}
+
+.column-one:hover .category-text {
+  transform: scale(1.05);
+  opacity: 0.3;
+  background-color: white;
+  color: black;
+}
+
+.column-one:hover .tooltip-text {
+  opacity: 1;
+}
+
+/**** Properties for text ***/
+
+.category-text {
+  background-color:black;
+  color: #fff;
+  padding: 8px 16px;
+  position: absolute;
+  border-radius: 15px 50px 30px 5px;
+  font-size: 1.0rem;
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+}
+
+.tooltip-text {
+  opacity: 0;
+  position: absolute;
+  padding: 5px 10px 5px 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  color: white;
+}
+
+.column-four .tooltip-text {
+  border-radius: 20px;
+  font-size: small;
+}
+
+.column-three .tooltip-text {
+  border-radius: 20px;
+  padding: 10px;
+  font-size: large;
+}
+
+.column-two .tooltip-text {
+  border-radius: 20px;
+  padding: 20px;
+  font-size: x-large;
+}
+
+.column-one .tooltip-text {
+  border-radius: 20px;
+  padding: 30px;
+  font-size: xx-large;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1000px) {
+  .column-four {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column-three,
+  .column-two,
+  .column-one {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout */
+@media screen and (max-width: 800px) {
+  .column-four,
+  .column-three,
+  .column-two,
+  .column-one .category-text {
+    font-size: 75%;
+  }
+}
+
+/* Responsive layout */
+@media screen and (max-width: 800px) {
+  .column-four,
+  .column-three,
+  .column-two,
+  .column-one .tooltip-text {
+    font-size: 75%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 750px) {
+  .column-four {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column-three,
+  .column-two,
+  .column-one {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* Responsive layout */
+@media screen and (max-width: 600px) {
+  .column-one .category-text {
+    font-size: 50%;
+  }
+}
+
+/* Responsive layout */
+@media screen and (max-width: 600px) {
+  .column-four,
+  .column-three,
+  .column-two,
+  .column-one .tooltip-text {
+    font-size: 50%;
+  }
+}

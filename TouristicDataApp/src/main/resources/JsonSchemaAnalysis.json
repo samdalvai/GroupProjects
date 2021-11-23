@@ -1,0 +1,104 @@
+{
+	"title": "Analysis Json Schema",
+	"description": "Schema used to validate json output file representing Analysis objects",
+	"examples": [
+		{
+			"activitiesTypes": {
+				"berg": 2,
+				"mountainbikes": 6,
+				"sessellift": 1,
+				"piste": 10
+			},
+			"trackedActivityIds": [
+				"0A7428B48777B69EB4C1A615926E5F3C",
+				"FD6E51282A0154EC3D5A7BEEF1AB11ED"
+			],
+			"regionsWithMostActivities": {
+				"numberOfActivities": 5,
+				"regionIds": [
+					"D2633A1CC24E11D18F1B006097B8970B"
+				]
+			},
+			"regionsWithLeastActivities": {
+				"numberOfActivities": 1,
+				"regionIds": [
+					"D2633A24C24E11D18F1B006097B8970B",
+					"D2633A1FC24E11D18F1B006097B8970B"
+				]
+			}
+		}
+	],
+	"type": "object",
+	"properties": {
+		"activitiesTypes": {
+			"type": "object",
+			"patternProperties": {
+				"^.*$": {
+					"type": "number",
+					"minimum": 1
+				}
+			},
+			"minProperties": 1,
+			"additionalProperties": false
+		},
+		"trackedActivityIds": {
+			"type": "array",
+			"minItems": 1,
+			"uniqueItems": true,
+			"items": {
+				"type": "string"
+			}
+		},
+		"regionsWithMostActivities": {
+			"type": "object",
+			"properties": {
+				"numberOfActivities": {
+					"type": "number",
+					"minimum": 1
+				},
+				"regionIds": {
+					"type": "array",
+					"minItems": 1,
+					"uniqueItems": true,
+					"items": {
+						"type": "string"
+					}
+				}
+			},
+			"required": [
+				"numberOfActivities",
+				"regionIds"
+			],
+			"additionalProperties": false
+		},
+		"regionsWithLeastActivities": {
+			"type": "object",
+			"properties": {
+				"numberOfActivities": {
+					"type": "number",
+					"minimum": 1
+				},
+				"regionIds": {
+					"type": "array",
+					"minItems": 1,
+					"uniqueItems": true,
+					"items": {
+						"type": "string"
+					}
+				}
+			},
+			"required": [
+				"numberOfActivities",
+				"regionIds"
+			],
+			"additionalProperties": false
+		}
+	},
+	"required": [
+		"activitiesTypes",
+		"trackedActivityIds",
+		"regionsWithMostActivities",
+		"regionsWithLeastActivities"
+	],
+	"additionalProperties": false
+}

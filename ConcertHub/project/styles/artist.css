@@ -1,0 +1,153 @@
+.wrapper {
+    width: 100%;
+    margin: 0;
+    padding-top: 50px;
+}
+
+.infos {
+    width: 50%;
+    padding-left: 150px;
+    padding-top: 50px;
+    float: left;
+    position: relative;
+}
+
+.titlez {
+    position: relative;
+    width: 75%;
+    left: 50px;
+}
+
+.grey {
+    color: #999999!important;
+}
+
+.table {
+    position: relative;
+    border-radius: 10px;
+    /*left: 80px;*/
+    /*top: 80px;*/
+}
+
+td {
+    padding-left: 20px;
+}
+
+#rcorners2 {
+    transition: box-shadow .3s;
+    border-radius: 50px;
+    margin: 0 0 20px 0;
+}
+
+#rcorners2:hover {
+    box-shadow: 0 0 30px rgba(33, 33, 33, .2);
+}
+
+.photo {
+    width: 50%;
+    margin: 0;
+    float: right;
+    position: relative;
+    height: auto;
+}
+
+.photocss {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.img-responsive {
+    box-shadow: 10px 10px 5px grey;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    border-radius: 20px;
+    margin: auto;
+    vertical-align: middle;
+    min-height: 100%;
+}
+
+
+/******** OTHER PROPERTIES ********/
+
+
+/* MARGINS AND BORDERS */
+
+.margin-bottom {
+    margin-bottom: 16px!important
+}
+
+.margin-top {
+    margin-top: 16px!important
+}
+
+.border-bottom {
+    border-bottom: 2px solid #ccc!important
+}
+
+.border-right {
+    border-right: 1px solid #ccc!important
+}
+
+.border-light-grey,
+.hover-border-light-grey:hover,
+.border-light-gray,
+.hover-border-light-gray:hover {
+    border-color: #f1f1f1!important
+}
+
+.padding-bottom-25 {
+    padding-bottom: 25px;
+}
+
+.padding-left-25 {
+    padding-left: 25px!important;
+}
+
+.padding-right-25 {
+    padding-right: 25px!important;
+}
+
+.padding-top-25 {
+    padding-top: 25px!important;
+}
+
+.padding-top-20 {
+    padding-top: 20!important;
+}
+
+@media (min-width:601px) {
+    .col.m6 {
+        width: 49.99999%
+    }
+}
+
+@media (min-width:993px) {
+    .col.l3 {
+        width: 24.99999%
+    }
+}
+
+.center {
+    text-align: center;
+}
+
+.bio {
+    color: white;
+}
+
+.vertical-align {
+    vertical-align: middle!important;
+}
+
+.artist-image-container {
+    display: table;
+    height: 100%;
+}
+
+.artist-image {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}

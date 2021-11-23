@@ -1,0 +1,97 @@
+.login {
+    padding-top: 4%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 15px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.login h2 {
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.padding-lg {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
+}
+
+.centered {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.login-button {
+    width: 50%;
+}
+
+.sign-up-button {
+    width: 50%;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.title {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.padding-bottom {
+    padding-bottom: 10px;
+}
+
+.padding-alert {
+    display: block;
+}
+
+.alert-dismissible .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: .75rem 1.25rem;
+    color: inherit;
+}
+
+button.close {
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+}
+
+.alert {
+    padding: 12px 12px 12px 12px;
+}
+
+.half-size {
+    width: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100%;
+}
+
+.form-input {
+    padding-right: 50px;
+    padding-left: 50px;
+}

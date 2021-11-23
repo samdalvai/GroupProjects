@@ -1,0 +1,229 @@
+/******* WALLPAPER SECTION ********/
+
+.wallpaper {
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wallpaper-logo{
+    white-space:nowrap;
+    overflow:hidden;
+}
+
+/**********************************/
+
+
+/****** MOST POPULAR SECTIONS *****/
+
+.row.header h2 {
+    text-align: left;
+    margin: 0 0 -10px;
+    padding: 0px 20px 20px 20px;
+    font-size: 30px;
+    line-height: 95px;
+    padding-left: 0px;
+    padding-right: 0px;
+    /*font-weight: 600;*/
+}
+
+ul.row {
+    margin-right: -30px;
+    margin-left: -30px;
+    padding-top: 0px;
+    padding-right: 1px;
+    padding-bottom: 0px;
+    padding-left: 1px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+.header.header-icon {
+    display: block;
+    margin-bottom: 0px;
+}
+
+.padding-lg {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
+}
+
+.padding-lg-about {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: block;
+}
+
+.practice-area.padding-lg {
+    padding-bottom: 55px;
+    padding-top: 55px;
+}
+
+.practice-area .inner {
+    margin-bottom: 28px;
+    padding: 40px 25px;
+    border: 1px solid #999999;
+    text-align: center;
+}
+
+.our-webcoderskull .block-of-content:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    border: 0;
+}
+
+.practice-area .inner h3 {
+    padding: 10px 0;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #3c3c3c;
+    font-size: 24px;
+}
+
+.practice-area .inner p {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.practice-area .inner img {
+    display: inline-block;
+}
+
+.our-webcoderskull .block-of-content {
+    float: left;
+    width: 100%;
+    height: 100%;
+    /* */
+    background: transparent;
+    padding: 0px;
+    text-align: center;
+    margin: 5% 0;
+    border-radius: 25px;
+    border: 6px solid transparent;
+}
+
+.our-webcoderskull .block-of-content img {
+    width: 100%;
+    height: 100%;
+    box-sizing: inherit;
+    border-radius: 25px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.most-popular-category {
+    background-color: #000;
+    color: #fff;
+    padding: 8px 16px;
+    position: absolute;
+    border-radius: 15px 50px 30px 5px;
+    font-size: 15px;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.img-responsive {
+    box-shadow: 10px 10px 5px grey;
+
+}
+
+.padding-bottom-15 {
+    padding-bottom: 15px;
+}
+
+
+/**********************************/
+
+
+/******** OTHER PROPERTIES ********/
+
+
+/* MARGINS AND BORDERS */
+
+.margin-bottom {
+    margin-bottom: 16px!important
+}
+
+.margin-top {
+    margin-top: 16px!important
+}
+
+.border-bottom {
+    border-bottom: 2px solid #ccc!important
+}
+
+.border-light-grey,
+.hover-border-light-grey:hover,
+.border-light-gray,
+.hover-border-light-gray:hover {
+    border-color: #f1f1f1!important
+}
+
+.padding-left-right-25 {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/***********/
+
+
+@media (min-width:601px) {
+    .col.m6 {
+        width: 49.99999%
+    }
+}
+
+@media (min-width:993px) {
+    .col.l3 {
+        width: 24.99999%
+    }
+}
+
+.tooltip-text {
+    border-radius: 15px;
+    opacity: 0;
+    position: absolute;
+    padding: 5px 10px 5px 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    font-size: medium;
+}
+
+.box-shadow {
+    box-shadow: 10px 10px 5px grey;
+}
+
+
+.block-of-content {
+    position: relative;
+    text-align: center;
+}
+
+.block-of-content:hover a img {
+    opacity: 0.3;
+}
+
+.block-of-content:hover .most-popular-category {
+    opacity: 0.3;
+    background-color: white;
+    color: black;
+}
+
+.block-of-content:hover .tooltip-text {
+    opacity: 1;
+}

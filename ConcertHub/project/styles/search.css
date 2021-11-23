@@ -1,0 +1,64 @@
+.padding-lg {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
+}
+
+.border-bottom {
+    border-bottom: 2px solid #ccc!important
+}
+
+.border-light-grey,
+.hover-border-light-grey:hover,
+.border-light-gray,
+.hover-border-light-gray:hover {
+    border-color: #f1f1f1!important
+}
+
+.padding-bottom {
+    padding-bottom: 30px;
+}
+
+.padding-top {
+    padding-top: 100px;
+}
+
+.centered {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.book-button{
+    width: 50%;
+}
+
+.light-grey{
+    background-color: lightgray!important;
+}
+
+td a {
+    text-decoration: none;
+    color: black;
+}
+
+.black {
+    color: black!important;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.visible{
+    visibility: visible;
+}
+
+.active-black {
+    background-color: black!important;
+    color: white!important;
+}
+
+.search-bar {
+    margin-left: -50px;
+    margin-right: -50px;
+}

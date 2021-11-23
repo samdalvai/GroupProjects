@@ -1,0 +1,155 @@
+.row.header h1 {
+    text-align: center;
+    margin: 0 0 40px;
+    padding-bottom: 17px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 92.52px;
+    line-height: 95px;
+    font-weight: 900;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header.header-icon {
+    display: block;
+}
+
+.padding-lg {
+    padding-top: 150px;
+    padding-bottom: 60px;
+    display: block;
+}
+
+.practice-area.padding-lg {
+    padding-bottom: 55px;
+    padding-top: 55px;
+}
+
+.practice-area .inner {
+    margin-bottom: 28px;
+    padding: 40px 25px;
+    border: 1px solid #999999;
+    text-align: center;
+}
+
+.our-webcoderskull .block-of-content:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    border: 0;
+}
+
+.practice-area .inner h3 {
+    padding: 10px 0;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #3c3c3c;
+    font-size: 24px;
+}
+
+.practice-area .inner p {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.practice-area .inner img {
+    display: inline-block;
+}
+
+.our-webcoderskull {
+    background: url(https://ichef.bbci.co.uk/news/1024/cpsprodpb/16441/production/_109910219_massiveattack2.jpg) center top / cover;
+}
+
+.our-webcoderskull .block-of-content {
+    float: left;
+    width: 100%;
+    height: 97%;
+    /* */
+    background: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    border: 2px solid #d5d5d5;
+    margin: 0 0 28px;
+    border-radius: 10px;
+}
+
+.our-webcoderskull .block-of-content figure {
+    width: 148px;
+    height: 148px;
+    border-radius: 100%;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.our-webcoderskull .block-of-content img {
+    width: 148px;
+    height: 148px;
+    border-radius: 100%;
+}
+
+.our-webcoderskull .block-of-content h2 {
+    color: #2a2a2a;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 6px 0;
+    text-transform: uppercase;
+}
+
+.our-webcoderskull .block-of-content h2 a {
+    text-decoration: none;
+    color: #2a2a2a;
+}
+
+.our-webcoderskull .block-of-content h2 a:hover {
+    color: #337ab7;
+}
+
+.our-webcoderskull .block-of-content p {
+    line-height: 20px;
+    font-weight: 400;
+    color: #2a2a2a;
+    font-size: 13px;
+}
+
+.our-webcoderskull .block-of-content .icons {
+    display: inline-block;
+    margin: 40px 0px -30px;
+    /* to check */
+}
+
+.our-webcoderskull .block-of-content .icons li {
+    display: inline-block;
+    margin: -20px 7px;
+}
+
+.our-webcoderskull .block-of-content .icons li .fa {
+    color: #767676;
+    font-size: 40px;
+}
+
+.our-webcoderskull .block-of-content .icons li .fa:hover {
+    color: #025a8e;
+}
+
+.block-of-content h3 {
+    font-size: 1.25rem;
+}
+
+.padding-name {
+    padding-top: 15px!important;
+    padding-bottom: 15px!important;
+}
+
+.icons-big {
+    font-size: 40px;
+    opacity: 0.85;
+    color: black;
+}
+
+.icons-big:hover {
+    opacity: 1
+}

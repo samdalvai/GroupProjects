@@ -1,0 +1,44 @@
+.row {
+    padding-bottom: 15px!important;
+}
+
+.buy-button{
+    width: 100%;
+}
+
+.padding-left-10{
+    padding-left: 10px;
+}
+
+.padding-top-25{
+    padding-top: 25px;
+}
+
+.border-right {
+    border-right: 1px solid #ccc!important
+  }
+  
+  .border-light-grey,
+  .hover-border-light-grey:hover,
+  .border-light-gray,
+  .hover-border-light-gray:hover {
+      border-color: #f1f1f1!important
+  }
+
+.light-grey{
+    background-color: rgb(211, 211, 211)!important;
+}
+
+.green {
+    color: green!important;
+}
+
+.booking-details {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.section-title {
+    white-space:nowrap;
+    overflow:hidden;
+}
